@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "util": "^0.12.5"
   },
   "homepage": "https://SriRamaPandian.github.io/cracker_app"
