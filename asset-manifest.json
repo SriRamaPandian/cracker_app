@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/cracker_app/static/css/main.e6c13ad2.css",
+    "main.js": "/cracker_app/static/js/main.2c94b207.js",
+    "static/js/239.b21cb365.chunk.js": "/cracker_app/static/js/239.b21cb365.chunk.js",
+    "static/js/977.a2d134d7.chunk.js": "/cracker_app/static/js/977.a2d134d7.chunk.js",
+    "static/js/455.7608e525.chunk.js": "/cracker_app/static/js/455.7608e525.chunk.js",
+    "static/js/453.5323212b.chunk.js": "/cracker_app/static/js/453.5323212b.chunk.js",
+    "index.html": "/cracker_app/index.html",
+    "main.e6c13ad2.css.map": "/cracker_app/static/css/main.e6c13ad2.css.map",
+    "main.2c94b207.js.map": "/cracker_app/static/js/main.2c94b207.js.map",
+    "239.b21cb365.chunk.js.map": "/cracker_app/static/js/239.b21cb365.chunk.js.map",
+    "977.a2d134d7.chunk.js.map": "/cracker_app/static/js/977.a2d134d7.chunk.js.map",
+    "455.7608e525.chunk.js.map": "/cracker_app/static/js/455.7608e525.chunk.js.map",
+    "453.5323212b.chunk.js.map": "/cracker_app/static/js/453.5323212b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.2c94b207.js"
+  ]
+}
