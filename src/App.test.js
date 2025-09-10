@@ -1,8 +1,12 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import { TextEncoder, TextDecoder } from "util";
 
-test('renders learn react link', () => {
+global.TextEncoder = TextEncoder;
+global.TextDecoder = TextDecoder;
+
+test('renders Crackers Order heading', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const heading = screen.getByText(/Sivakasi Crackers/i);
+  expect(heading).toBeInTheDocument();
 });
