@@ -11,7 +11,7 @@ export default function App() {
 
   // Load CSV once
   useEffect(() => {
-    fetch("/crackers.csv")
+    fetch(process.env.PUBLIC_URL+"/crackers.csv")
       .then((res) => res.text())
       .then((csvText) => {
         const results = Papa.parse(csvText, { header: true });
