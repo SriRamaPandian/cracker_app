@@ -16,7 +16,7 @@ export default function App() {
       .then((csvText) => {
         const results = Papa.parse(csvText, { header: true });
         const data = results.data
-          .filter((row) => row.Name) // remove empty rows
+          .filter((row) => row.Name)
           .map((row) => ({
             ...row,
             Name: row.Name.trim(),
